@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: njw19920905
+    url: jdbc:mysql://47.96.95.15：3306/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+
+
+
+
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  path: /Users/weichen/workpaper/java学习/优惠券/log
+#  file: /Users/weichen/workpaper/java学习/优惠券/log/sell.log
+#  level:
+#    com.imooc.LoggerTest: debug
